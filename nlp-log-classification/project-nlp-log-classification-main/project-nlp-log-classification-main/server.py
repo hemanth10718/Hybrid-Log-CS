@@ -27,10 +27,12 @@ async def classify_logs(file: UploadFile):
         df.to_csv(output_file, index=False)
         print("File saved to output.csv")
         return FileResponse(output_file, media_type='text/csv')
+    except HTTPException:
+        raise
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
     finally:
-        file.file.close()
+        file.file.close()        
         # # Clean up if the file was saved
         # if os.path.exists("output.csv"):
         #     os.remove("output.csv")
