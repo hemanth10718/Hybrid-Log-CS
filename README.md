@@ -231,6 +231,10 @@ The LLM path cannot be measured meaningfully with the current data, which contai
 - If a key is ever exposed, delete it in the Groq console and create a new one.
 ---
  
+## Author
+
+Developed by Hemanth R
+
 ## License
- 
-MIT License.
+
+This project is licensed under the **MIT License**.
