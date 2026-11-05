@@ -464,9 +464,11 @@ The LLM path cannot be measured meaningfully with the current data, which contai
 
 &#x20;
 
-\## License
+## Author
 
-&#x20;
+Developed by Hemanth R
 
-MIT License.
+## License
+
+This project is licensed under the **MIT License**.
 
